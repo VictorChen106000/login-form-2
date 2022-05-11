@@ -261,7 +261,33 @@ svg#freepik_stories-sign-in.animated2 #freepik--Character--inject-18 {
     z-index: -1;
     display: none;
 }
-@media screen and (max-width:540px) {
+@media only screen and (min-width:930px) and (max-width:1024px) {
+    .reg-link {
+        font-size: 13px;
+    }
+    form {
+        width: 30vw;
+        height: 70vh;
+    }
+    .login-form {
+        width: 45vh;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:920px) {
+    .animated1 {
+        display: none;
+    }
+    .animated2 {
+        position: static;
+        height: 50vh;
+        display: inline-block;
+    }
+    form {
+        position: static;
+        height: 35vh;
+    }
+}
+@media only screen and (max-width:600px) {
     .animated1 {
         display: none;
     }
